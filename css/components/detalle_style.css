@@ -14,12 +14,15 @@ body {
     /* background-color: var(--color-fondo); */
     /* color: var(--color-texto); */
     font-family: var(--fuente-principal);
+    min-height: 100vh;
+    font-size: 20px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 12px 36px;
 }
 
@@ -36,11 +39,12 @@ header {
 
 .nav_links {
     display: flex;
+    flex-wrap: wrap;
     gap: 22px;
 }
 .nav_links a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     color: #000000;
 }
 .nav_links a:hover {
@@ -58,10 +62,95 @@ header {
     border-radius: 50%;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .main_container {
-
+    width: 85%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 28px 0 28px 0;
 }
 
 .imagen_pelicula {
+    /* margin: 0 auto; */
+}
+.imagen_pelicula img {
+    width: 300px;
+    height: 450px;
+    transition: transform 0.3s ease;
+}
+.imagen_pelicula img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 4px var(--color-secundario);
+}
 
+.detalles_pelicula {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo_detalles h1 {
+    font-size: 60px;
+}
+.puntuacion_detalles p {
+    font-weight: bold;
+    /* color: var(--color-secundario); */
+    user-select: none;
+}
+.sinopsis_detalles {
+    max-width: 800px;
+    font-size: 22px;
+}
+.sinopsis_detalles h3 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.sinopsis_detalles p {
+    line-height: 1.5;
+}
+
+.especificaciones_detalles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+.horarios_detalles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    user-select: none;
+}
+.horarios_detalles h3 {
+    flex-basis: 100%;
+}
+.horarios_detalles p {
+    padding: 8px 16px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.horarios_detalles p:hover {
+    background-color: var(--color-primario);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
 }
