@@ -1,0 +1,67 @@
+@import url(../style.css);
+
+:root {
+    --fuente-principal: Space Grotesk;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: var(--color-fondo); */
+    /* color: var(--color-texto); */
+    font-family: var(--fuente-principal);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 36px;
+}
+
+.brand_container {
+    display: flex;
+    align-items: center;
+}
+.brand_container :hover {
+    cursor: pointer;
+}
+.brand_container h1 {
+    user-select: none;
+}
+
+.nav_links {
+    display: flex;
+    gap: 22px;
+}
+.nav_links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.nav_links a:hover {
+    color: var(--color-primario);
+    transition: color 0.3s ease;
+}
+.nav_profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.nav_profile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.main_container {
+
+}
+
+.imagen_pelicula {
+
+}
