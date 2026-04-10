@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* =============================================
    GRIDS — Layouts de grillas
    Usada en: pages/estrenos.html
@@ -45,3 +46,11 @@
     padding: 1rem;
   }
 }
+=======
+/* GRID DE PELICULAS */
+.pelicula-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+>>>>>>> 208a2cdf609f015a8ba97e64e0b31498cc1dff4f
