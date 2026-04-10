@@ -18,13 +18,15 @@
         <h1>Cine Aurora</h1>
         <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
       </div>
-      <div>
+      <div class="nav_container">
         <nav class="nav_links">
           <a href="../index.html">Inicio</a>
           <a href="../pages/estrenos.html">Próximos estrenos</a>
           <div class="nav_profile">
-            <img src="../assets/img/perfil-placeholder.png" alt="Imagen de perfil" />
-            <a href="../pages/login.html">Mi perfil</a>
+            <a href="../pages/login.html">
+              <img src="../assets/img/perfil-placeholder.png" alt="Imagen de perfil" />
+              Mi perfil
+            </a>
           </div>
         </nav>
       </div>
@@ -42,7 +44,7 @@
           </div>
 
           <div class="puntuacion_detalles">
-            <p>Puntuación: ★★★★☆</p>
+            <p>Puntuación: <span class="puntaje">★★★★☆</span></p>
           </div>
 
           <div class="sinopsis_detalles">
@@ -85,14 +87,14 @@
             href="#"
             onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
-            "
+            " class="comprar_entradas"
             >Comprar entradas</a
           >
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer_detalle">
       <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
     </footer>
   </body>
