@@ -1,0 +1,41 @@
+@import url(./style.css);
+
+/* Body del login */
+body {
+    background-image: url(../assets/img/fondo-login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--color-texto);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main del login */
+main {
+    flex: 1;
+    display: flex;
+    background: var(--color-primario);
+    text-align: center;
+    align-items: stretch;
+    padding: 32px;
+    margin: 20px;
+    max-width: fit-content;
+    max-height: fit-content;
+    border-radius: 20px;
+    align-self: center;
+}
+
+/* Barras de input del login */
+.input-login {
+    background-color: var(--color-superficie);
+    border: none;
+    color: var(--color-texto);
+    border-radius: 10px;
+    margin: 10px;
+}
