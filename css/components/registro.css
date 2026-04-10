@@ -9,17 +9,18 @@
 .registro-main {
   min-height: 100vh;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    linear-gradient(rgba(15, 23, 42, 0.72), rgba(15, 23, 42, 0.82)),
     url("../../assets/img/fondo-registro.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 40px 64px;
 }
+
 .registro-form-wrapper {
   width: 100%;
   max-width: 560px;
@@ -31,16 +32,16 @@
   gap: 16px;
   padding: 32px;
   border-radius: 16px;
-  background: rgba(31, 31, 31, 0.78);
+  background: rgba(30, 41, 59, 0.8);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(248, 250, 252, 0.08);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
 }
 
 .registro-form-title {
   margin: 0 0 8px 0;
-  color: var(--color-primario);
+  color: var(--color-secundario);
   text-align: center;
   font-size: 1.9rem;
 }
@@ -62,7 +63,7 @@
   padding: 12px;
   border: 1px solid transparent;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(248, 250, 252, 0.08);
   color: var(--color-texto);
   box-sizing: border-box;
 }
@@ -71,7 +72,7 @@
 .registro-select:focus {
   outline: none;
   border-color: var(--color-secundario);
-  box-shadow: 0 0 0 3px rgba(0, 180, 216, 0.18);
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2);
 }
 
 .registro-input-color {
@@ -92,7 +93,7 @@
 .registro-divider {
   width: 100%;
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(248, 250, 252, 0.1);
   margin: 8px 0;
 }
 
@@ -102,7 +103,7 @@
   gap: 16px;
   padding: 20px;
   border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(248, 250, 252, 0.04);
 }
 
 .registro-extra-info {
@@ -128,15 +129,6 @@
   gap: 16px;
 }
 
-.registro-radio {
-  margin-right: 8px;
-}
-
-.registro-radio-label {
-  margin-right: 16px;
-  color: var(--color-texto);
-}
-
 .registro-button-container {
   display: flex;
   justify-content: center;
@@ -158,12 +150,14 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  color: var(--color-texto);
 }
 
 @media (max-width: 768px) {
   .registro-main {
     justify-content: center;
     padding: 24px 16px;
+    background-attachment: scroll;
   }
 
   .registro-form {
@@ -174,4 +168,3 @@
     font-size: 1.6rem;
   }
 }
-

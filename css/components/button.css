@@ -1,6 +1,6 @@
 .site-button-primary {
-  background-color: var(--color-primario);
-  color: var(--color-texto);
+  background-color: var(--color-texto-suave);
+  color: var(--color-superficie);
   border: none;
   border-radius: 8px;
   padding: 12px 24px;
@@ -11,6 +11,6 @@
 }
 
 .site-button-primary:hover {
-  background-color: #b20710;
+  background-color: var(--color-texto-suave);
   transform: translateY(-1px);
 }
