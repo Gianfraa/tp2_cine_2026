@@ -1,4 +1,7 @@
 @import url(../css/style.css);
+@import url(../css/components/poster.css);
+@import url(../css/components/footer.css);
+@import url(../css/components/nav.css);
 
 :root {
     --fuente-principal: Space Grotesk;
@@ -11,55 +14,11 @@
 }
 
 body {
-    /* background-color: var(--color-fondo); */
-    /* color: var(--color-texto); */
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
     font-family: var(--fuente-principal);
     min-height: 100vh;
     font-size: 20px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 12px 36px;
-}
-
-.brand_container {
-    display: flex;
-    align-items: center;
-}
-.brand_container :hover {
-    cursor: pointer;
-}
-.brand_container h1 {
-    user-select: none;
-}
-
-.nav_links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 22px;
-}
-.nav_links a {
-    text-decoration: none;
-    font-size: 22px;
-    color: #000000;
-}
-.nav_links a:hover {
-    color: var(--color-primario);
-    transition: color 0.3s ease;
-}
-.nav_profile {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.nav_profile img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
 }
 
 main {
@@ -68,28 +27,16 @@ main {
     align-items: center;
 }
 .main_container {
-    width: 85%;
+    max-width: 85%;
     display: flex;
-    /* justify-content: center; */
     align-items: flex-start;
-    flex-wrap: wrap;
     gap: 40px;
     margin: 28px 0 28px 0;
 }
-
-.imagen_pelicula {
-    /* margin: 0 auto; */
-}
-.imagen_pelicula img {
-    width: 300px;
-    height: 450px;
-    transition: transform 0.3s ease;
-}
-.imagen_pelicula img:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-    box-shadow: 0 2px 4px var(--color-secundario);
+@media (max-width: 1024px) {
+    .main_container {
+        flex-direction: column;
+    }
 }
 
 .detalles_pelicula {
@@ -98,18 +45,30 @@ main {
     gap: 20px;
 }
 .titulo_detalles h1 {
-    font-size: 60px;
+    color: var(--color-texto-suave);
+    font-size: 50px;
 }
+@media (max-width: 768px) {
+    .titulo_detalles h1 {
+        font-size: 42px;
+    }
+    
+}
+
 .puntuacion_detalles p {
-    font-weight: bold;
-    /* color: var(--color-secundario); */
     user-select: none;
+}
+.puntuacion_detalles .puntaje {
+    color: var(--color-secundario);
+    font-weight: bold;
+    margin-left: 4px;
 }
 .sinopsis_detalles {
     max-width: 800px;
     font-size: 22px;
 }
 .sinopsis_detalles h3 {
+    color: var(--color-texto-suave);
     font-size: 28px;
     margin-bottom: 12px;
 }
@@ -121,7 +80,11 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
+}
+.especificaciones_detalles h3 {
+    color: var(--color-texto-suave);
 }
 
 .horarios_detalles {
@@ -132,25 +95,36 @@ main {
 }
 .horarios_detalles h3 {
     flex-basis: 100%;
+    color: var(--color-texto-suave);
 }
 .horarios_detalles p {
     padding: 8px 16px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--color-primario);
+    border: 2px solid transparent;
     border-radius: 4px;
+    cursor: pointer;
+    transition: border 0.3s ease;
 }
 .horarios_detalles p:hover {
-    background-color: var(--color-primario);
-    transition: background-color 0.3s ease;
-    cursor: pointer;
+    border: 2px solid var(--color-texto);
+    transition: border 0.3s ease;
 }
 
-
-
-
-
-
-
-footer {
+.comprar_entradas {
+    width: stretch;
+    padding: 12px 48px;
+    background-color: var(--color-primario);
+    text-decoration: none;
+    color: var(--color-texto);
     text-align: center;
+    border-radius: 16px;
+    font-weight: bold;
+    transition: scale 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+.comprar_entradas:hover {
+    background-color: #fa3b65; /* rojo mas claro para el hover */
+    scale: 1.01;
+    transition: scale 0.3s ease;
+    transition: background-color 0.3s ease;
 }
