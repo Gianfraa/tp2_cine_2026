@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-@import url(./components/poster.css);     /* solo tiene modificado las dimensiones de las img */
-@import url(./components/card-vertical.css); /* cards de estrenos (Flexbox) */
-@import url(./components/grids.css);         /* grillas de la sección estrenos (CSS Grid + media queries) */
-=======
-/*@import url(./components/poster.css);*/ /* solo tiene modificado las dimensiones de las img */
->>>>>>> 208a2cdf609f015a8ba97e64e0b31498cc1dff4f
+@import url(./components/poster.css);
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+@import url(./components/button.css);
+@import url(./components/card-vertical.css);
+@import url(./components/grids.css);
 
 /* Paletas de colores que pueden usar: */
 
@@ -38,7 +37,6 @@
   --color-texto-suave: #b3b3b3;
 }*/
 
-<<<<<<< HEAD
 /* Base */
 body {
   background-color: var(--color-fondo);
@@ -46,37 +44,3 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
-=======
-/* Imports */
-@import url('./components/nav.css');
-@import url('./components/grids.css');
-@import url('./components/card-vertical.css');
-@import url('./components/poster.css');
-@import url('./components/button.css');
-@import url('./components/footer.css');
-
-
-/* RESET BASICO*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* BODY */
-.body-index {
-  background-color: #0f172a;
-  color: #fff;
-}
-
-/* MAIN */
-.main {
-  padding: 20px;
-}
-
-.cartelera_title {
-  text-align: center;
-  margin-bottom: 20px;
-}
->>>>>>> 208a2cdf609f015a8ba97e64e0b31498cc1dff4f

@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-/* =============================================
-   CARD VERTICAL — Estrenos
-   Usada en: pages/estrenos.html
-   Layout interno: Flexbox (columna)
-   ============================================= */
 
 .card-vertical {
   display: flex;
   flex-direction: column;
   background-color: var(--color-superficie);
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -19,10 +13,9 @@
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
 }
 
-/* Poster ocupa todo el ancho de la card */
 .card-vertical__poster {
   width: 100%;
-  height: 280px;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   display: block;
 }
@@ -42,26 +35,3 @@
   margin: 0;
   padding: 0 1rem 1rem;
 }
-=======
-/* TARJETAS DE PELICULAS */
-.pelicula {
-    background-color: #1c1c1c;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-}
-
-.pelicula:hover {
-    transform: scale(1.05);
-}
-
-.pelicula_nombre {
-    margin: 10px 0;
-}
-
-.pelicula_genero {
-    color: #bbb;
-    margin-bottom: 10px;
-}
->>>>>>> 208a2cdf609f015a8ba97e64e0b31498cc1dff4f
