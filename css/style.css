@@ -1,4 +1,4 @@
-@import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
+/*@import url(./components/poster.css);*/ /* solo tiene modificado las dimensiones de las img */
 
 /* Paletas de colores que pueden usar: */
 
@@ -32,8 +32,16 @@
   --color-texto-suave: #b3b3b3;
 }*/
 
+/* Imports */
+@import url('./components/nav.css');
+@import url('./components/grids.css');
+@import url('./components/card-vertical.css');
+@import url('./components/poster.css');
+@import url('./components/button.css');
+@import url('./components/footer.css');
 
-/* RESET BÁSICO */
+
+/* RESET BASICO*/
 * {
   margin: 0;
   padding: 0;
@@ -47,28 +55,12 @@
   color: #fff;
 }
 
-/* HEADER */
-.header-index {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000;
+/* MAIN */
+.main {
   padding: 20px;
 }
 
-.header_logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.nav a {
-  color: #fff;
-  text-decoration: underline;
-  margin-left: 20px;
-  transition: 0.3s;
-}
-
-.nav a:hover {
-  color: #f39c12;
+.cartelera_title {
+  text-align: center;
+  margin-bottom: 20px;
 }
