@@ -1,0 +1,91 @@
+.perfil_main {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("../../assets/img/fondo-registro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.perfil_container {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.perfil_titulo {
+  text-align: center;
+  color: var(--color-texto-suave)
+}
+
+.perfil_info_general {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.perfil_foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.perfil_foto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.perfil_saludo {
+  text-align: center;
+  color: var(--color-texto-suave)
+}
+
+.perfil_datos {
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--color-texto-suave);
+  line-height: 1.8;
+  min-width: 250px;
+}
+
+.perfil_peliculas {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--color-texto-suave);
+}
+
+.perfil_peliculas_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.perfil_peliculas_grid img {
+  width: 160px;
+  height: 230px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.perfil_peliculas_grid img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+body {
+  margin: 0;
+}
