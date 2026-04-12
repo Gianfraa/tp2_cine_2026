@@ -56,7 +56,7 @@
   border-radius: 10px;
   color: var(--color-texto-suave);
   line-height: 1.8;
-  min-width: 250px;
+  min-width: 450px;
 }
 
 .perfil_peliculas {
@@ -86,6 +86,38 @@
 
 }
 
+.perfil_pelicula_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .perfil_info_general {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .perfil_datos {
+    width: 100%;
+  }
+}
+
+.perfil_peliculas h3 {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.perfil_peliculas h3::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 8px;
+  background: linear-gradient(to right, transparent, #e50914, transparent);
 }

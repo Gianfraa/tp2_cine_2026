@@ -1,74 +1,91 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cine Aurora 📽️ - Mi perfil</title>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/components/perfil.css">
-    <link rel="stylesheet" href="../css/components/nav.css">
-    <link rel="stylesheet" href="../css/components/footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cine Aurora 📽️ - Mi perfil</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/components/perfil.css">
+  <link rel="stylesheet" href="../css/components/nav.css">
+  <link rel="stylesheet" href="../css/components/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
 
-    <header class="site-header">
-      <div class="site-header-brand">
-        <a href="../index.html" class="site-logo-link">
-          <h1 class="site-title">Cine Aurora</h1>
-          <img class="site-logo" src="../assets/favicon/logo-cine.png" alt="logo">
-        </a>
-      </div>
+<body>
 
-      <nav class="site-nav">
-        <a class="site-nav-link" href="../index.html">Inicio</a>
-        <a class="site-nav-link" href="./estrenos.html">Próximos estrenos</a>
-        <a class="site-nav-link" href="../index.html">Volver</a>
-      </nav>
-    </header>
+  <header class="site-header">
+    <div class="site-header-brand">
+      <a href="../index.html" class="site-logo-link">
+        <h1 class="site-title">Cine Aurora</h1>
+        <img class="site-logo" src="../assets/favicon/logo-cine.png" alt="logo">
+      </a>
+    </div>
 
-    <main class="perfil_main">
-      <section class="perfil_container">
+    <nav class="site-nav">
+      <a class="site-nav-link" href="../index.html">Inicio</a>
+      <a class="site-nav-link" href="./estrenos.html">Próximos estrenos</a>
+      <a class="site-nav-link" href="../index.html">Volver</a>
+    </nav>
+  </header>
 
-        <h1 class="perfil_titulo">Panel de usuario</h1>
+  <main class="perfil_main">
+    <section class="perfil_container">
 
-        <div class="perfil_info_general">
+      <h1 class="perfil_titulo">Panel de usuario</h1>
 
-          <div class="perfil_foto">
-            <img src="../assets/img/perfil-placeholder.png" alt="perfil">
-            <h2 class="perfil_saludo">Hola, John Doe 👋📽️!</h2>
-          </div>
+      <div class="perfil_info_general">
 
-          <div class="perfil_datos">
-            <p>Nombre completo: John Doe</p>
-            <p>Email: usuario@example.com</p>
-            <p>Fecha de nacimiento: dd/mm/yyyy</p>
-            <p>Contraseña: ********</p>
-            <p>Miembro desde: 2026</p>
-          </div>
-
+        <div class="perfil_foto">
+          <img src="../assets/img/perfil-placeholder.png" alt="perfil">
+          <h2 class="perfil_saludo">Hola, John Doe 👋📽️!</h2>
         </div>
 
-        <section class="perfil_peliculas">
-          <h3>Películas ya vistas</h3>
+        <div class="perfil_datos">
+          <p>Nombre completo: John Doe</p>
+          <p>Email: usuario@example.com</p>
+          <p>Fecha de nacimiento: dd/mm/yyyy</p>
+          <p>Contraseña: ********</p>
+          <p>Miembro desde: 2026</p>
+        </div>
 
-          <div class="perfil_peliculas_grid">
+      </div>
+
+      <section class="perfil_peliculas">
+        <h3>Películas ya vistas</h3>
+
+        <div class="perfil_peliculas_grid">
+          <div class="perfil_pelicula_item">
             <img src="../assets/img/inception.jpg" alt="">
-            <img src="../assets/img/memento.jpg" alt="">
-            <img src="../assets/img/NCM.jpg" alt="">
-            <img src="../assets/img/Sueños.jpg" alt="">
+            <span>Vista el 12/08/2021</span>
           </div>
-        </section>
 
+          <div class="perfil_pelicula_item">
+            <img src="../assets/img/memento.jpg" alt="">
+            <span>Vista el 22/04/2022</span>
+          </div>
+
+          <div class="perfil_pelicula_item">
+            <img src="../assets/img/NCM.jpg" alt="">
+            <span>Vista el 02/02/2023</span>
+          </div>
+
+          <div class="perfil_pelicula_item">
+            <img src="../assets/img/Sueños.jpg" alt="">
+            <span>Vista el 08/04/2023</span>
+          </div>
+        </div>
       </section>
-    </main>
 
-    <footer class="site-footer">
-      <p class="site-footer-text">
-        © 2026 Cine Aurora - Todos los derechos reservados
-      </p>
-    </footer>
+    </section>
+  </main>
 
-  </body>
+  <footer class="site-footer">
+    <p class="site-footer-text">
+      © 2026 Cine Aurora - Todos los derechos reservados
+    </p>
+  </footer>
+
+</body>
+
 </html>
