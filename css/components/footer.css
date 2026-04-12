@@ -1,7 +1,11 @@
 @import url(../style.css);
 
 /* footer de la pagina detalle */
+<<<<<<< HEAD
 .footer_detalle {
+=======
+.footer{
+>>>>>>> n_castellini
     padding: 28px 36px;
     text-align: center;
     background-color: var(--color-superficie);

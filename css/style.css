@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(./components/poster.css);
 @import url(./components/nav.css);
 @import url(./components/footer.css);
@@ -14,6 +15,15 @@
 /* Paletas de colores que pueden usar: */
 
 /* Paleta 1: */
+=======
+@import url(./components/poster.css); 
+@import url(./components/nav.css);
+@import url(./components/footer.css);
+@import url(./components/button.css);
+@import url(./components/registro.css);
+@import url(./components/perfil.css);
+
+>>>>>>> n_castellini
 :root {
   --color-fondo: #0f172a;
   --color-superficie: #1e293b;
@@ -22,6 +32,11 @@
   --color-texto: #f8fafc;
   --color-texto-suave: #94a3b8;
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> n_castellini
 
 /* Paleta 2: */
 /*:root {
@@ -43,6 +58,7 @@
   --color-texto-suave: #b3b3b3;
 }*/
 
+<<<<<<< HEAD
 /* Base */
 body {
   background-color: var(--color-fondo);
@@ -50,3 +66,5 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
+=======
+>>>>>>> n_castellini
