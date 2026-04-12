@@ -1,7 +1,3 @@
-@import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
-@import url(./components/nav.css);
-@import url(./components/footer.css);
-@import url(./components/button.css);
 @import url(./registro.css);
 
 :root {
