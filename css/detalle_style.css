@@ -1,0 +1,130 @@
+@import url(../css/style.css);
+@import url(../css/components/poster.css);
+@import url(../css/components/footer.css);
+@import url(../css/components/nav.css);
+
+:root {
+    --fuente-principal: Space Grotesk;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: var(--fuente-principal);
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_container {
+    max-width: 85%;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 28px 0 28px 0;
+}
+@media (max-width: 1024px) {
+    .main_container {
+        flex-direction: column;
+    }
+}
+
+.detalles_pelicula {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo_detalles h1 {
+    color: var(--color-texto-suave);
+    font-size: 50px;
+}
+@media (max-width: 768px) {
+    .titulo_detalles h1 {
+        font-size: 42px;
+    }
+    
+}
+
+.puntuacion_detalles p {
+    user-select: none;
+}
+.puntuacion_detalles .puntaje {
+    color: var(--color-secundario);
+    font-weight: bold;
+    margin-left: 4px;
+}
+.sinopsis_detalles {
+    max-width: 800px;
+    font-size: 22px;
+}
+.sinopsis_detalles h3 {
+    color: var(--color-texto-suave);
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.sinopsis_detalles p {
+    line-height: 1.5;
+}
+
+.especificaciones_detalles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.especificaciones_detalles h3 {
+    color: var(--color-texto-suave);
+}
+
+.horarios_detalles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    user-select: none;
+}
+.horarios_detalles h3 {
+    flex-basis: 100%;
+    color: var(--color-texto-suave);
+}
+.horarios_detalles p {
+    padding: 8px 16px;
+    background-color: var(--color-primario);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+.horarios_detalles p:hover {
+    border: 2px solid var(--color-texto);
+    transition: border 0.3s ease;
+}
+
+.comprar_entradas {
+    width: stretch;
+    padding: 12px 48px;
+    background-color: var(--color-primario);
+    text-decoration: none;
+    color: var(--color-texto);
+    text-align: center;
+    border-radius: 16px;
+    font-weight: bold;
+    transition: scale 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+.comprar_entradas:hover {
+    background-color: #fa3b65; /* rojo mas claro para el hover */
+    scale: 1.01;
+    transition: scale 0.3s ease;
+    transition: background-color 0.3s ease;
+}

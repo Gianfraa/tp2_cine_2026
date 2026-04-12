@@ -1,7 +1,32 @@
-/* POSTERS */
-.pelicula_img {
-    width: 100%;
-    aspect-ratio: 2 / 3;
-    object-fit: cover;
-    border-radius: 10px;
+/* las fotos de las películas están más pequeñas por un tema de visibilidad
+modifiquen los atributos a su gusto con una clase, o eliminen esta parte del código */
+img {
+  width: 100px;
+  height: 100px;
+}
+/* poster de la pagina detalle */
+.brand_container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+}
+.imagen_pelicula {
+    max-width: 100%;
+}
+.imagen_pelicula img {
+    width: 500px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.imagen_pelicula img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 6px var(--color-secundario);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .imagen_pelicula img {
+        width: 100%;
+        max-height: 600px;
+    }
 }
