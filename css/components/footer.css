@@ -1,20 +1,19 @@
-<<<<<<< HEAD
-@import url(../style.css);
-
-/* footer de la pagina detalle */
-<<<<<<< HEAD
 .footer_detalle {
-=======
-.footer{
->>>>>>> n_castellini
-=======
-/* FOOTER */ 
-@import url(../style.css);
-
-/* footer de la pagina detalle */
-.footer_detalle {
->>>>>>> alumno2_sanger
     padding: 28px 36px;
     text-align: center;
     background-color: var(--color-superficie);
+    color: var(--color-texto);
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.main-fullheight {
+    min-height: calc(100vh - 80px); /* Ajusta 80px según el alto real del header+footer */
+    display: flex;
+    flex-direction: column;
 }
