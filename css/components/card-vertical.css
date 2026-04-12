@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+
+.card-vertical {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-superficie);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-vertical:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.card-vertical__poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+/* Texto de la card */
+.card-vertical__titulo {
+  color: var(--color-texto);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.card-vertical__fecha {
+  color: var(--color-texto-suave);
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0 1rem 1rem;
+}
+=======
+>>>>>>> 4b70d59c897dea57916c9c76f974c5e7c1260073

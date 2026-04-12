@@ -6,34 +6,48 @@
     <title>Cine Aurora 📽️</title>
     <meta name="description" content="Cine Aurora - Detalle de la película." />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/detalle_style.css" />
+    <!-- se descarga la fuente antes en html que en css -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+    </style>
   </head>
   <body>
     <header>
-      <div>
+      <div class="brand_container">
         <h1>Cine Aurora</h1>
         <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
       </div>
-      <div>
-        <nav>
+      <div class="nav_container">
+        <nav class="nav_links">
           <a href="../index.html">Inicio</a>
           <a href="../pages/estrenos.html">Próximos estrenos</a>
-          <a href="../pages/login.html">Mi perfil</a>
+          <div class="nav_profile">
+            <a href="../pages/login.html">
+              <img src="../assets/img/perfil-placeholder.png" alt="Imagen de perfil" />
+              Mi perfil
+            </a>
+          </div>
         </nav>
       </div>
     </header>
 
     <main>
-      <section>
-        <div>
+      <section class="main_container">
+        <div class="imagen_pelicula">
           <img src="../assets/img/poster-1.png" alt="Póster" />
         </div>
-        <div>
-          <div>
+        <div class="detalles_pelicula">
+          <div class="titulo_detalles">
             <h1>Título</h1>
             <h2>Lorem ipsum, dolor sit.</h2>
           </div>
-          <div>
+
+          <div class="puntuacion_detalles">
+            <p>Puntuación: <span class="puntaje">★★★★☆</span></p>
+          </div>
+
+          <div class="sinopsis_detalles">
             <h3>Sinopsis</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
@@ -42,46 +56,45 @@
               voluptatibus laboriosam ut recusandae animi quisquam!
             </p>
           </div>
-          <div>
-            <h3>Duración</h3>
-            <p>155 minutos</p>
+          
+          <div class="especificaciones_detalles">
+            <div class="duracion_detalles">
+              <h3>Duración</h3>
+              <p>155 minutos</p>
+            </div>
+            <div class="genero_detalles">
+              <h3>Género</h3>
+              <p>Ciencia ficción</p>
+            </div>
+            <div class="director_detalles">
+              <h3>Director</h3>
+              <p>John Doe</p>
+            </div>
+            <div class="clasificacion_detalles">
+              <h3>Clasificación</h3>
+              <p>+13</p>
+            </div>            
           </div>
 
-          <div>
-            <h3>Género</h3>
-            <p>Ciencia ficción</p>
-          </div>
-
-          <div>
-            <h3>Director</h3>
-            <p>John Doe</p>
-          </div>
-
-          <div>
-            <h3>Clasificación</h3>
-            <p>+13</p>
-          </div>
-          <div>
+          <div class="horarios_detalles">
             <h3>Horarios:</h3>
             <p>16:00</p>
             <p>19:00</p>
             <p>22:00</p>
           </div>
-          <div>
-            <p>Puntuación: ★★★★☆</p>
-          </div>
+
           <a
             href="#"
             onclick="
               alert('Lo sentimos, en este momento no funciona nuestro sistema')
-            "
+            " class="comprar_entradas"
             >Comprar entradas</a
           >
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer_detalle">
       <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
     </footer>
   </body>

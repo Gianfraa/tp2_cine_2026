@@ -7,77 +7,77 @@
     <meta name="description" content="Cine Aurora - Estrenos" />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/estrenos_style.css" />
   </head>
 
   <body>
     <header>
-      <div>
+      <div class="brand_container">
+        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" class="header_img" />
         <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
       </div>
       <div>
-        <nav>
+        <nav class="nav_links">
           <a href="../index.html">Inicio</a>
           <a href="#">Próximos estrenos</a>
-          <a href="../pages/login.html">Mi perfil</a>
+          <div class="nav_profile">
+            <a href="../pages/login.html">
+              <img src="../assets/favicon/logo-cine.png" alt="Perfil" />
+              Mi perfil
+            </a>
+          </div>
         </nav>
       </div>
     </header>
 
     <main>
-      <section>
-        <div>
-          <div>
-            <h1>Próximos Lanzamientos</h1>
+      <section class="seccion-estrenos">
+        <h2 class="seccion-estrenos__titulo">Próximos Lanzamientos</h2>
+
+        <div class="grilla-estrenos">
+
+          <div class="card-vertical">
+            <img class="card-vertical__poster" src="../assets/img/estrnos/italianbrainrot.jpg" alt="Estreno 1" />
+            <h4 class="card-vertical__titulo">Zombini Rotini</h4>
+            <p class="card-vertical__fecha">Fecha prevista: Mayo 2026</p>
           </div>
 
-          <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
+          <div class="card-vertical">
+            <img class="card-vertical__poster" src="../assets/img/estrnos/italianbrainrot2.jpg" alt="Estreno 2" />
+            <h4 class="card-vertical__titulo">Tung Tung Tung Sahur Rotini 1</h4>
+            <p class="card-vertical__fecha">Fecha prevista: Junio 2026</p>
           </div>
+
+          <div class="card-vertical">
+            <img class="card-vertical__poster" src="../assets/img/estrnos/italianbrainrot3.jpg" alt="Estreno 3" />
+            <h4 class="card-vertical__titulo">Los Rotinis Rap battle</h4>
+            <p class="card-vertical__fecha">Fecha prevista: Junio 2026</p>
+          </div>
+
+          <div class="card-vertical">
+            <img class="card-vertical__poster" src="../assets/img/estrnos/italianbrainrot4.jpg" alt="Estreno 4" />
+            <h4 class="card-vertical__titulo">Universo Psichedilico Rotini</h4>
+            <p class="card-vertical__fecha">Fecha prevista: Julio 2026</p>
+          </div>
+
+          <div class="card-vertical">
+            <img class="card-vertical__poster" src="../assets/img/estrnos/italianbrainrot5.jpg" alt="Estreno 5" />
+            <h4 class="card-vertical__titulo">La venganza de Tung Tung Tung Sahur</h4>
+            <p class="card-vertical__fecha">Fecha prevista: Julio 2026</p>
+          </div>
+
+          <div class="card-vertical">
+            <img class="card-vertical__poster" src="../assets/img/estrnos/italianbrainrot6.jpg" alt="Estreno 6" />
+            <h4 class="card-vertical__titulo">Tung Tung Tung Sahur Hogwards Rotini</h4>
+            <p class="card-vertical__fecha">Fecha prevista: Agosto 2026</p>
+          </div>
+
         </div>
-
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
-
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
-
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
-
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
-
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
-
       </section>
-
-      <footer>
-        <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-      </footer>
     </main>
+
+    <footer class="footer_detalle">
+      <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+    </footer>
   </body>
 </html>
