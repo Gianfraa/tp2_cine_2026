@@ -1,7 +1,7 @@
-@import url(../css/style.css);
-@import url(../css/components/poster.css);
-@import url(../css/components/footer.css);
-@import url(../css/components/nav.css);
+@import url(./style.css);
+@import url(./components/poster.css);
+@import url(./components/footer.css);
+@import url(./components/nav.css);
 
 :root {
     --fuente-principal: Space Grotesk;
