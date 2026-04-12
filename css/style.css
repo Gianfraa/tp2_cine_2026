@@ -1,32 +1,11 @@
-<<<<<<< HEAD
 @import url(./components/poster.css);
 @import url(./components/nav.css);
 @import url(./components/footer.css);
 @import url(./components/button.css);
 @import url(./components/card-vertical.css);
 @import url(./components/grids.css);
-@import url(./components/button.css);
 @import url(./components/card-horizontal.css);
-@import url(./components/card-vertical.css);
-@import url(./components/footer.css);
-@import url(./components/grids.css);
-@import url(./components/nav.css);
 
-/* Paletas de colores que pueden usar: */
-
-/* Paleta 1: */
-<<<<<<< HEAD
-=======
-@import url(./components/poster.css); 
-@import url(./components/nav.css);
-@import url(./components/footer.css);
-@import url(./components/button.css);
-@import url(./components/registro.css);
-@import url(./components/perfil.css);
-
->>>>>>> n_castellini
-=======
->>>>>>> alumno2_sanger
 :root {
   --color-fondo: #0f172a;
   --color-superficie: #1e293b;
@@ -35,14 +14,6 @@
   --color-texto: #f8fafc;
   --color-texto-suave: #94a3b8;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-
->>>>>>> n_castellini
-=======
->>>>>>> alumno2_sanger
 
 /* Paleta 2: */
 /*:root {
@@ -64,16 +35,9 @@
   --color-texto-suave: #b3b3b3;
 }*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* Base */
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
   font-family: sans-serif;
   margin: 0;
 }
-=======
->>>>>>> n_castellini
-=======
->>>>>>> alumno2_sanger
