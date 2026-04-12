@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 .card-vertical {
   display: flex;
   flex-direction: column;
@@ -7,6 +5,10 @@
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 240px;
+  min-width: 220px;
+  max-width: 100%;
+  margin: 0;
 }
 
 .card-vertical:hover {
@@ -19,6 +21,8 @@
   aspect-ratio: 2 / 3;
   object-fit: cover;
   display: block;
+  flex-shrink: 0;
+  height: auto;
 }
 
 /* Texto de la card */
@@ -36,5 +40,25 @@
   margin: 0;
   padding: 0 1rem 1rem;
 }
-=======
->>>>>>> 4b70d59c897dea57916c9c76f974c5e7c1260073
+
+/* TARJETAS DE PELICULAS */
+.pelicula {
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.pelicula:hover {
+    transform: scale(1.05);
+}
+
+.pelicula_nombre {
+    margin: 10px 0;
+}
+
+.pelicula_genero {
+    color: #bbb;
+    margin-bottom: 10px;
+}
