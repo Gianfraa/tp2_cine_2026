@@ -1,4 +1,4 @@
-/*@import url(./components/poster.css);*/ /* solo tiene modificado las dimensiones de las img */
+@import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
 
 /* Paletas de colores que pueden usar: */
 
@@ -31,60 +31,3 @@
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
 }*/
-
-/* Imports */
-@import url('./components/nav.css');
-@import url('./components/grids.css');
-@import url('./components/card-vertical.css');
-@import url('./components/poster.css');
-@import url('./components/button.css');
-@import url('./components/footer.css');
-
-
-/* RESET BASICO*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* BODY */
-.body-index {
-  background-color: #0f172a;
-  color: #fff;
-}
-
-/* MAIN */
-.main {
-  padding: 20px;
-}
-
-.cartelera_title {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* MEDIA QUERIES */
-
-/* CELULARES */
-@media (max-width: 600px) {
-  .header-index {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav a {
-    margin: 5px 0;
-  }
-
-  .pelicula-grid {
-    grid-template-columns: 1fr;
-  }
-}
