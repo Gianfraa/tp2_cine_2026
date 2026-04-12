@@ -1,0 +1,17 @@
+@import url(../style.css);
+
+/* Botones del login */
+.botones-login {
+    display: flex;
+    background: var(--color-superficie);
+    color: var(--color-texto);
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botones-login:hover {
+    background-color: var(--color-fondo);
+}

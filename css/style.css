@@ -1,13 +1,15 @@
-<<<<<<< HEAD
 @import url(./components/poster.css);
 @import url(./components/nav.css);
 @import url(./components/footer.css);
 @import url(./components/button.css);
 @import url(./components/card-vertical.css);
 @import url(./components/grids.css);
-=======
-@import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
->>>>>>> 4b70d59c897dea57916c9c76f974c5e7c1260073
+@import url(./components/button.css);
+@import url(./components/card-horizontal.css);
+@import url(./components/card-vertical.css);
+@import url(./components/footer.css);
+@import url(./components/grids.css);
+@import url(./components/nav.css);
 
 /* Paletas de colores que pueden usar: */
 
@@ -40,7 +42,6 @@
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
 }*/
-<<<<<<< HEAD
 
 /* Base */
 body {
@@ -49,5 +50,3 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
-=======
->>>>>>> 4b70d59c897dea57916c9c76f974c5e7c1260073
