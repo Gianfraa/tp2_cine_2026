@@ -1,9 +1,8 @@
+@import url(./style.css);
 @import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
 @import url(./components/nav.css);
 @import url(./components/footer.css);
 @import url(./components/button.css);
-@import url(./components/registro.css);
-@import url(./components/perfil.css);
 
 .perfil_main {
   min-height: 100vh;
