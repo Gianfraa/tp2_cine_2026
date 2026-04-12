@@ -1,7 +1,9 @@
 /* FOOTER */ 
-.footer-index {
+@import url(../style.css);
+
+/* footer de la pagina detalle */
+.footer_detalle {
+    padding: 28px 36px;
     text-align: center;
-    padding: 20px;
-    background-color: #000;
-    margin-top: 20px;
+    background-color: var(--color-superficie);
 }
