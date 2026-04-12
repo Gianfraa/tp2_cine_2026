@@ -1,10 +1,5 @@
-@import url(../style.css);
 
-<<<<<<< HEAD
 /* footer de la pagina detalle */
-=======
-/* nav de la pagina */
->>>>>>> alumno2_sanger
 header {
     background-color: var(--color-superficie);
     display: flex;
