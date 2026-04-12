@@ -1,0 +1,21 @@
+/* TARJETAS DE PELICULAS */
+.pelicula {
+    background-color: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.pelicula:hover {
+    transform: scale(1.05);
+}
+
+.pelicula_nombre {
+    margin: 10px 0;
+}
+
+.pelicula_genero {
+    color: #bbb;
+    margin-bottom: 10px;
+}

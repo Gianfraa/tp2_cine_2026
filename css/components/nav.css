@@ -1,0 +1,29 @@
+/* HEADER */
+.header-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_img {
+    width: 50px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #f39c12;
+}
