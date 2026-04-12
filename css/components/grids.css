@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* --- Sección Estrenos --- */
 
 .seccion-estrenos {
@@ -17,28 +16,27 @@
 
 /* Grilla de cards — Desktop: 3 columnas */
 .grilla-estrenos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
 }
 
-/* Tablet: 2 columnas */
 @media (max-width: 900px) {
   .grilla-estrenos {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobile: 1 columna */
-@media (max-width: 480px) {
-  .grilla-estrenos {
-    grid-template-columns: 1fr;
     gap: 1rem;
+    justify-content: center;
   }
-
   .seccion-estrenos {
     padding: 1rem;
   }
 }
-=======
->>>>>>> 4b70d59c897dea57916c9c76f974c5e7c1260073
+
+/* GRID DE PELICULAS */
+.pelicula-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
