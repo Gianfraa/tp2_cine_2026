@@ -24,11 +24,3 @@
         max-height: 600px;
     }
 }
-
-/* POSTERS */
-.pelicula_img {
-    width: 100%;
-    aspect-ratio: 2 / 3;
-    object-fit: cover;
-    border-radius: 10px;
-}
