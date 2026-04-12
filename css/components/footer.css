@@ -1,8 +1,7 @@
-@import url(../style.css);
-
-/* footer de la pagina detalle */
-.footer_detalle {
-    padding: 28px 36px;
+/* FOOTER */ 
+.footer-index {
     text-align: center;
-    background-color: var(--color-superficie);
+    padding: 20px;
+    background-color: #000;
+    margin-top: 20px;
 }
