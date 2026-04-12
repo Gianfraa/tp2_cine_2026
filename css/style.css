@@ -6,12 +6,12 @@
 @import url(./components/perfil.css);
 
 :root {
-  --color-fondo: #141414;
-  --color-superficie: #1f1f1f;
-  --color-primario: #e50914;
-  --color-secundario: #00b4d8;
-  --color-texto: #ffffff;
-  --color-texto-suave: #b3b3b3;
+  --color-fondo: #0f172a;
+  --color-superficie: #1e293b;
+  --color-primario: #e11d48;
+  --color-secundario: #f59e0b;
+  --color-texto: #f8fafc;
+  --color-texto-suave: #94a3b8;
 }
 
 
