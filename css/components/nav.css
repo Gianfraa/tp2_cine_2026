@@ -14,57 +14,57 @@ header {
     header {
         justify-content: center;
     }
-    header .brand_container h1 {
+    header .brand-container h1 {
         font-size: 36px;
     }
-    .nav_links {
+    .nav-links {
         justify-content: center;
     }
 }
 
-.brand_container {
+.brand-container {
     display: flex;
     align-items: center;
     gap: 16px;
     flex-wrap: wrap;
     transition: scale 0.3s ease;
 }
-.brand_container:hover {
+.brand-container:hover {
     cursor: pointer;
     scale: 1.05;
     transition: scale 0.3s ease;
 }
-.brand_container h1 {
+.brand-container h1 {
     user-select: none;
 }
 
-.nav_links {
+.nav-links {
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
 }
-.nav_links a {
+.nav-links a {
     text-decoration: none;
     font-size: 22px;
     color: var(--color-texto);
 }
-.nav_links a:hover {
+.nav-links a:hover {
     color: var(--color-primario);
     transition: color 0.3s ease;
 }
-.nav_profile a {
+.nav-profile a {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-.nav_profile img {
+.nav-profile img {
     width: 28px;
     height: 28px;
     border-radius: 50%;
     border: 3px solid transparent;
     transition: border 0.4s ease;
 }
-.nav_profile a:hover > img {
+.nav-profile a:hover > img {
     border: 3px solid var(--color-primario);
     transition: border 0.4s ease;
 }

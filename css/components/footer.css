@@ -1,4 +1,4 @@
-.footer_detalle {
+.footer-detalle {
     padding: 28px 36px;
     text-align: center;
     background-color: var(--color-superficie);
@@ -13,7 +13,7 @@ body, html {
 }
 
 .main-fullheight {
-    min-height: calc(100vh - 80px); /* Ajusta 80px según el alto real del header+footer */
+    min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
 }

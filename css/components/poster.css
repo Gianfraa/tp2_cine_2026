@@ -1,32 +1,32 @@
 /* poster de la pagina detalle */
-.brand_container img {
+.brand-container img {
   width: 80px;
   height: 80px;
   border-radius: 16px;
 }
-.imagen_pelicula {
+.imagen-pelicula {
     max-width: 100%;
 }
-.imagen_pelicula img {
+.imagen-pelicula img {
     width: 500px;
     height: auto;
     transition: transform 0.3s ease;
 }
-.imagen_pelicula img:hover {
+.imagen-pelicula img:hover {
     transform: scale(1.02);
     box-shadow: 0 2px 6px var(--color-secundario);
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 @media (max-width: 768px) {
-    .imagen_pelicula img {
+    .imagen-pelicula img {
         width: 100%;
         max-height: 600px;
     }
 }
 
 /* POSTERS */
-.pelicula_img {
+.pelicula-img {
     width: 100%;
     aspect-ratio: 2 / 3;
     object-fit: cover;

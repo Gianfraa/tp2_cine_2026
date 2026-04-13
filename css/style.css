@@ -6,6 +6,7 @@
 @import url(./components/grids.css);
 @import url(./components/card-horizontal.css);
 
+/* Paleta 1: */
 :root {
   --color-fondo: #0f172a;
   --color-superficie: #1e293b;

@@ -1,10 +1,10 @@
 @import url(./style.css);
-@import url(./components/poster.css); /* solo tiene modificado las dimensiones de las img */
+@import url(./components/poster.css);
 @import url(./components/nav.css);
 @import url(./components/footer.css);
 @import url(./components/button.css);
 
-.perfil_main {
+.perfil-main {
   min-height: 100vh;
   background-color: var(--color-fondo);
   background-size: cover;
@@ -16,7 +16,7 @@
   padding: 40px 24px;
 }
 
-.perfil_container {
+.perfil-container {
   width: 100%;
   max-width: 1100px;
   display: flex;
@@ -24,37 +24,37 @@
   gap: 40px;
 }
 
-.perfil_titulo {
+.perfil-titulo {
   text-align: center;
   color: var(--color-texto-suave)
 }
 
-.perfil_info_general {
+.perfil-info-general {
   display: flex;
   gap: 40px;
   align-items: flex-start;
 }
 
-.perfil_foto {
+.perfil-foto {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
-.perfil_foto img {
+.perfil-foto img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.perfil_saludo {
+.perfil-saludo {
   text-align: center;
   color: var(--color-texto-suave)
 }
 
-.perfil_datos {
+.perfil-datos {
   background-color: rgba(255, 255, 255, 0.08);
   padding: 20px;
   border-radius: 10px;
@@ -63,34 +63,34 @@
   min-width: 450px;
 }
 
-.perfil_peliculas {
+.perfil-peliculas {
   display: flex;
   flex-direction: column;
   gap: 16px;
   color: var(--color-texto-suave);
 }
 
-.perfil_peliculas_grid {
+.perfil-peliculas-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
 }
 
-.perfil_peliculas_grid img {
+.perfil-peliculas-grid img {
   width: 160px;
   height: 230px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-.perfil_peliculas_grid img:hover {
+.perfil-peliculas-grid img:hover {
   transform: scale(1.05);
   cursor: pointer;
 
 }
 
-.perfil_pelicula_item {
+.perfil-pelicula-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,23 +102,23 @@ body {
 }
 
 @media (max-width: 768px) {
-  .perfil_info_general {
+  .perfil-info-general {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .perfil_datos {
+  .perfil-datos {
     width: 100%;
   }
 }
 
-.perfil_peliculas h3 {
+.perfil-peliculas h3 {
   position: relative;
   margin-bottom: 24px;
 }
 
-.perfil_peliculas h3::after {
+.perfil-peliculas h3::after {
   content: "";
   display: block;
   width: 100%;
